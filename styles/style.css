@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.navigation{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr auto;
+}
+.navigation-container ul {
+    list-style-type: none;
+}
+  
+.navigation-container li {
+    display: inline;
+    padding: 10px;
+}
+
+.navigation-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
