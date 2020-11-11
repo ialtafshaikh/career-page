@@ -1,9 +1,7 @@
+
 /* *{
-    border: 1px solid blue;
-} */
-*{
     box-sizing: border-box;
-}
+} */
 body {
     margin: 0;
 }
@@ -197,6 +195,43 @@ body {
     padding: 20px 20px 20px 0;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #2e9ee4;
+    color: white;
+    border-radius: 23px;
+    text-align: center;
+    padding: 10px .75rem;
+    transition: all .2s linear;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.nav-link .button{
+    /* padding-left: 30px !important;
+    padding-right: 30px !important; */
+}
+
+footer .button{
+}
+.footer-top{
+    text-align: center;
+}
+.footer-top h2{
+    font-size: 32px;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -250,6 +285,9 @@ body {
     .banner-heading{
         /* grid-column: 3/13; */
         /* font-size: 42px; */
+    }
+    .container {
+        max-width: 100%;
     }
 
 }
