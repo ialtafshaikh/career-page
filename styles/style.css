@@ -318,6 +318,26 @@ footer .button{
     padding: 15px;
     margin-right: 10px;
     font-size: 20px;
+    
+}
+.social-icons .twitter{
+    animation-name: pop-up;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pop-up{
+   0%{
+
+   }
+   50%{
+        transform: translateY(-15px);
+        color: #0062cc;
+   }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .social-icons .fa:hover{
@@ -380,8 +400,6 @@ footer .button{
     .copy{
         text-align: center;
     }
-   
-
 }
 
 /* Small devices (landscape phones, less than 768px) */
