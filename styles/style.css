@@ -52,9 +52,16 @@ body {
     font-size: 48px;
 }
 
-.header-text{
+.heading-text{
+    text-align: center;
+    font-size: 32px;
+    color: #2d2d2d;
+}
+
+.header-text p{
     text-align: center;
 }
+
 .outer-banner-text{
     background-color: black;
     display: none;
@@ -108,12 +115,76 @@ body {
     grid-row: 2/4;
 }
 
-/* .box{
-    width: 80%;
-    height:80vh;
-    background-color: aqua;
-    margin: auto;
-} */
+.bg-grey {
+    background: #f6f8f8;
+}
+.text-right, .col-right {
+    text-align: right;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.job-form label {
+    font-size: 22px;
+    margin: 10px 10px 10px 5px;
+    font-weight: 900;
+}
+
+.job-form .select-container{
+    width: 100%;
+    margin: 20px 0;
+    /* height: 5vh; */
+}
+
+.job-form .select-container select{
+    border: 1px solid black;
+    width: 100%;
+    height: 8vh;
+    font-size: 18px;
+    border-color: grey;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.jobs-count {
+    margin-bottom: -50px;
+}
+
+.job-section{
+    padding: 20px 0;
+}
+
+.job-section a{
+    text-decoration: none;
+    color: #2e9ee4;
+    font-size: 20px;
+}
+
+.job-section h3{
+    font-size: 28px;
+}
+
+
+.job-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.job-row .col-left{
+    padding: 20px 0 20px 20px;
+}
+
+.job-row .col-right{
+    padding: 20px 20px 20px 0;
+}
+.
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -163,4 +234,5 @@ body {
         /* grid-column: 3/13; */
         /* font-size: 42px; */
     }
+
 }
