@@ -320,12 +320,29 @@ footer .button{
     font-size: 20px;
     
 }
-.social-icons .twitter{
+
+.social-icons .facebook{
     animation-name: pop-up;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.social-icons .linkedin{
+    animation-name: pop-up;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.social-icons .twitter{
+    animation-name: pop-up;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 
 @keyframes pop-up{
    0%{
