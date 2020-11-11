@@ -287,10 +287,14 @@ footer .button{
     .job-row{{
         /* display: block; */
     }
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+    .navigation-container ul{
+        display: none !important;
+    }
     .banner-container{
         width: 100vw !important;
     }
@@ -304,6 +308,7 @@ footer .button{
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: 2fr 2fr 2fr;
     }
+   
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -319,6 +324,7 @@ footer .button{
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-rows: 2fr 2fr 2fr;
     }
+    
  }
 
 /* Large devices (desktops, less than 1200px) */
