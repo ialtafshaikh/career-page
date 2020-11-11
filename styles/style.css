@@ -1,7 +1,7 @@
-
-/* *{
-    box-sizing: border-box;
-} */
+/* 
+ *{
+    border: 1px solid red;
+}  */
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -279,13 +279,21 @@ footer .button{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    .gallery{
-        /* display: block; */
+    .gallery {
+        display: block;
+        width: 100%;
+        height: 100%;
         /* position: relative; */
-        
+    }
+    .gallery-container{
+        width: 100%;
+        height: 100%;
+    }
+    .gallery-img{
+        margin: 5px 0;
     }
     .job-row{{
-        /* display: block; */
+        display: block;
     }
 
 }
