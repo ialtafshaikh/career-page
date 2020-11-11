@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .header-section{
-
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, white 55%, white 100%);
 }
 .logo{
     height: 50px;
@@ -250,6 +250,10 @@ footer .button{
     padding: 15px;
     margin-right: 10px;
     font-size: 20px;
+}
+
+.social-icons .fa:hover{
+    color: #0069d9;
 }
 
 .footer-links {
