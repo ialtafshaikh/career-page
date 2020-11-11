@@ -1,6 +1,9 @@
 /* *{
     border: 1px solid blue;
 } */
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
 }
@@ -199,9 +202,10 @@ body {
     .gallery{
         /* display: block; */
         /* position: relative; */
+        
     }
     .job-row{{
-        display: block;
+        /* display: block; */
     }
 }
 
