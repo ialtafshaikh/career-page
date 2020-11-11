@@ -4,6 +4,7 @@
 } */
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-section{
 
@@ -203,6 +204,10 @@ footer{
     padding-bottom: 50px;
 }
 
+.footer-container{
+    padding:0 20px;
+}
+
 .button{
     text-decoration: none;
     background-color: #2e9ee4;
@@ -231,6 +236,41 @@ footer .button{
 }
 .footer-top h2{
     font-size: 32px;
+}
+
+.footer-bottom {
+    /* margin: 20px 20px; */
+    padding-top: 100px;
+}
+
+.social-icons .fa{
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-links li{
+    display: inline;
+}
+
+.footer-links li a{ 
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.footer-links li a:hover{ 
+    border-bottom: 1px solid #fff;
+}
+.footer-bottom .copy{
+    margin-left: 35px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
