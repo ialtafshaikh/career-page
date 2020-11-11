@@ -1,10 +1,12 @@
-/* 
- *{
+
+ /* *{
     border: 1px solid red;
+    
 }  */
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 .header-section{
     background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, white 55%, white 100%);
@@ -39,10 +41,11 @@ body {
 /* hamburger */
 #ham{
     width: 45px;
+    height: 38px;
     position: relative;
     margin: 0 10px;
     margin-top: 5px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     transform: rotate(0deg);
     transition: .5s ease-in-out;
     cursor: pointer;
@@ -98,7 +101,7 @@ body {
 
 .banner-container{
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt6d553f4d07f1eb42/5ece1e0354e7166d098d099e/Careers-page-Banner-image_(1).png?format=pjpg&width=1210");
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,8 +140,8 @@ body {
     background: #f13311;
     bottom: 2px;
     margin: 0 auto;
-    margin-top:120px;
-    margin-bottom: 10px;
+    margin-top:126px;
+    margin-bottom: 12px;
   }
 
 .header-text p{
@@ -359,6 +362,14 @@ footer .button{
     .job-row{
         display: block;
     }
+    .heading-text{
+        font-size: 22px;
+    }
+    .heading-text::before {
+        margin-top:50px !important  ;
+        margin-bottom: 8px;
+      }
+   
 
 }
 
@@ -368,7 +379,7 @@ footer .button{
         display: none !important;
     }
     .banner-container{
-        width: 100vw !important;
+        width: 100% !important;
     }
     .banner-heading{
         display: none;
@@ -384,6 +395,10 @@ footer .button{
     #ham{
         display: block;
     }
+    .heading-text::before {
+        margin-top:80px;
+        margin-bottom: 8px;
+      }
    
 }
 
