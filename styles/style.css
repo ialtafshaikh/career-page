@@ -148,7 +148,6 @@ body {
 .job-form .select-container{
     width: 100%;
     margin: 20px 0;
-    /* height: 5vh; */
 }
 
 .job-form .select-container select{
@@ -179,7 +178,6 @@ body {
 .job-section h3{
     font-size: 28px;
 }
-
 
 .job-row{
     display: grid;
@@ -224,11 +222,6 @@ footer{
     border-color: #0062cc;
 }
 
-.nav-link .button{
-    /* padding-left: 30px !important;
-    padding-right: 30px !important; */
-}
-
 footer .button{
 }
 .footer-top{
@@ -239,7 +232,6 @@ footer .button{
 }
 
 .footer-bottom {
-    /* margin: 20px 20px; */
     padding-top: 100px;
 }
 
@@ -283,7 +275,6 @@ footer .button{
         display: block;
         width: 100%;
         height: 100%;
-        /* position: relative; */
     }
     .gallery-container{
         height: 100%;
@@ -326,7 +317,6 @@ footer .button{
     }
     .banner-heading{
         grid-column: 3/13;
-        /* font-size: 32px; */
     }
     .gallery{
         grid-template-columns: 2fr 2fr 2fr;
@@ -339,10 +329,6 @@ footer .button{
 @media (max-width: 1199.98px) {
     .banner-container{
         /* width: 9vw; */
-    }
-    .banner-heading{
-        /* grid-column: 3/13; */
-        /* font-size: 42px; */
     }
     .container {
         max-width: 100%;
