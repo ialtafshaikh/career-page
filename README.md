@@ -54,3 +54,5 @@ To download the project enter the below command in your terminal or inside git-b
 git clone https://github.com/ialtafshaikh/career-page.git
 
 ```
+## Developed By:
+![image](https://raw.githubusercontent.com/ialtafshaikh/static-files/master/coollogo_com-327551664.png)
