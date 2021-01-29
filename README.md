@@ -45,7 +45,7 @@ To make the website Mobile Responsive
 `HTML 5`
 
 ## Repo is Hosted Live Here:
-[Link to the live Portfolio](https://ialtafshaikh.github.io/career-page/)
+[Link to the live Site](https://ialtafshaikh.github.io/career-page/)
 
 ## Download the Project
 To download the project enter the below command in your terminal or inside git-bash terminal if you are windows and using git bash  
